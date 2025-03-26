@@ -31,8 +31,8 @@ const App = () => {
       </Routes>
     </div> */}
 
-    {/* <SideBar/> */}
-    <WhyChooseUs/>
+    <SideBar/>
+    {/* <WhyChooseUs/> */}
 {/* <CustomerReview/> */}
     
     {/* <Content/> */}
