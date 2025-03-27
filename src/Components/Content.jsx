@@ -39,7 +39,7 @@ const Content = () => {
     },
   ]
   return (
-    <div className=' bg-black text-white min-h-screen w-full   '>
+    <div className=' bg-black text-white min-h-screen w-full  z-10 '>
       <div className='text-center py-10  '>
         <h1 className='text-4xl  font-bold'>Become a Partner with </h1>
         <h1 className='text-4xl font-bold text-red-500'>SNBA Consumers</h1>

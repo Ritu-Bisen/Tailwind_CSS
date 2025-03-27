@@ -14,11 +14,17 @@ import Salon from './Components/Salon'
 import SideBar from './Components/SideBar'
 import WhyChooseUs from './Components/WhyChooseUs'
 import CustomerReview from './Components/CustomerReview'
+import HeroNew from './Components/HeroNew'
+import Header from './Components/Header'
+import OurServices from './Components/OurServices'
 
 
 const App = () => {
   return (
     <div>
+      {/* <Header/>
+    <HeroNew/>
+    <SideBar/> */}
       {/* <CartNew/>
       
     <Content/> 
@@ -31,12 +37,13 @@ const App = () => {
       </Routes>
     </div> */}
 
-    <SideBar/>
-    {/* <WhyChooseUs/> */}
+    {/* <SideBar/> */}
+    {/* <WhyChooseUs/>  */}
 {/* <CustomerReview/> */}
     
-    {/* <Content/> */}
+     {/* <Content/> */}
 
+      <OurServices/>
     </div>
   )
 }

@@ -102,7 +102,7 @@ const WhyChooseUs = () => {
     ];
 
     return (
-        <div className="bg-black h-screen text-white relative overflow-hidden py-5 ">
+        <div className="bg-black h-screen text-white relative overflow-hidden py-5 z-10">
             <h1 className="pt-8 text-5xl font-bold text-center">Why Choose Us</h1>
             <div className="h-1 rounded mx-auto w-40 bg-red-500" />
 

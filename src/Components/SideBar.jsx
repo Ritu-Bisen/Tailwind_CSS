@@ -13,7 +13,7 @@ import fb from '../assets/Pictures/facebook.png'
 const SideBar = () => {
   return (
     <div className=''>
-      <h1 className='font-bold text-3xl'>SNBA ❤️</h1>
+    
 
       <div className='bg-black  rounded-lg p-1 fixed top-1/3 right-0  translate-y-1/2'>
       <a href='https://www.facebook.com/login.php/ '
@@ -27,7 +27,7 @@ const SideBar = () => {
       <img className='h-10 w-10 hover:scale-115' src={tw} />
       </div>
       <div className='fixed bottom-3 right-1/3 '>
-        <button className='bg-red-300 py-1 px-2 rounded-xl hover:bg-red-700 animate-bounce '>Membership</button>
+        <button className='bg-red-500 py-1 px-2 rounded-xl hover:bg-red-700 fixed right-40 bottom-5 text-xl font-bold text-white z-50 '>Buy Membership</button>
       </div>
 
     </div>
