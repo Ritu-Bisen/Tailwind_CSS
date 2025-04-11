@@ -17,6 +17,7 @@ import CustomerReview from './Components/CustomerReview'
 import HeroNew from './Components/HeroNew'
 import Header from './Components/Header'
 import OurServices from './Components/OurServices'
+import ScrollImages from './Components/UI/ScrollImages'
 
 
 const App = () => {
@@ -43,7 +44,8 @@ const App = () => {
     
      {/* <Content/> */}
 
-      <OurServices/>
+      {/* <OurServices/> */}
+      <ScrollImages/>
     </div>
   )
 }
